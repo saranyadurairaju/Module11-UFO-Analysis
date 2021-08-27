@@ -37,6 +37,8 @@ function buildTable(data) {
       // Apply `filter` to the table data to only keep the
       // rows where the `datetime` value matches the filter value
       filteredData = filteredData.filter(row => row.datetime === date);
+    // } else{
+    //     console.log("No Data Found")
     };
   
      // Rebuild the table using the filtered data
